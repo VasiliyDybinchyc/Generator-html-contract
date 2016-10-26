@@ -1,0 +1,26 @@
+.title{
+  text-align: center;
+}
+
+.left{
+  text-align: left;
+  float: left;
+}
+
+.right{
+  text-align: right;
+}
+
+.A4-size{
+  width: 21cm;
+  height: 30cm;
+}
+
+.document{
+  margin-top: 2cm;
+  margin-left: 3cm;
+}
+
+p {
+   text-indent: 20px;
+}
