@@ -2,6 +2,6 @@
 
 sgin in folder
 
-enter into the console "ruby lib/Generator_Contract.rb Data.txt" or you can specify a different your file
+to generate html file run comand `$ rake demo`
 
-the files will be created in this folder
+Where created files you can see in console

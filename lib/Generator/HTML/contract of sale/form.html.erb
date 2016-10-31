@@ -12,9 +12,9 @@
           <h2>Договір</h2>
           куплі-продажу
         </div>
-        <p class='left'>м. <%= $data[:city] %></p> <p class='right'><%= $data[:time] %></p>
-        <text><%= $data[:enterprise_name] %>, іменоване надалі  \"Продавець\" в особі <%= $data[:sellers_name] %>,
-          , іменоване надалі  \"Покупець\" в особі <%= $data[:the_purchasers_name] %>
+        <p class='left'>м. <%= @hash_data[:city] %></p> <p class='right'><%= @hash_data[:time] %></p>
+        <text><%= @hash_data[:enterprise_name] %>, іменоване надалі  \"Продавець\" в особі <%= @hash_data[:sellers_name] %>,
+          , іменоване надалі  \"Покупець\" в особі <%= @hash_data[:the_purchasers_name] %>
           (посада, П.І.П.), уклали даний Договір про наступне:
 
           <h4>1. Предмет договору.</h4>
@@ -149,9 +149,9 @@
 
           <p>6.2. Реквізити сторін.</p>
 
-          <p>6.2.1. Продавець <%= $data[:sellers_name]%>.</p>
+          <p>6.2.1. Продавець <%= @hash_data[:sellers_name]%>.</p>
 
-          <p>6.2.2. Покупець <%= $data[:the_purchasers_name]%>.</p>
+          <p>6.2.2. Покупець <%= @hash_data[:the_purchasers_name]%>.</p>
 
           <p>6.2.3. Підписи сторін:</p>
           </text>
